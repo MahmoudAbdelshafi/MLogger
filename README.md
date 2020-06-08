@@ -27,7 +27,7 @@ pod 'MLogger'
 ## Usage
 
 ### Basic
-> If you are using CocoaPods to integrate Loggerithm. Import Loggerithm first:
+> If you are using CocoaPods to integrate MLogger. Import Loggerithm first:
 > ```swift
 > import MLogger
 > ```
