@@ -13,6 +13,8 @@ MLogger is  a tiny logger for testing cases and following the logs on the consol
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- IOS 12.0+ 
+- Xcode 9.0
 
 ## Installation
 
