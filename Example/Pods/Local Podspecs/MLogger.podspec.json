@@ -1,0 +1,22 @@
+{
+  "name": "MLogger",
+  "version": "0.1.0",
+  "summary": "A short description of MLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mahmoudabdelshafi4@gmail.com/MLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mahmoudabdelshafi4@gmail.com": "mahmoudabdelshafi4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mahmoudabdelshafi4@gmail.com/MLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MLogger/Classes/**/*"
+}

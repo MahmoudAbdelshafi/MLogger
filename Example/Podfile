@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MLogger_Example' do
+  pod 'MLogger', :path => '../'
+
+  target 'MLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

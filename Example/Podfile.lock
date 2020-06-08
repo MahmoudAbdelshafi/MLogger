@@ -1,0 +1,16 @@
+PODS:
+  - MLogger (0.1.0)
+
+DEPENDENCIES:
+  - MLogger (from `../`)
+
+EXTERNAL SOURCES:
+  MLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLogger: a12299e335027bbe6fab2d5d2689d63db5a01550
+
+PODFILE CHECKSUM: db2620ac883b88860bfb89a08dc5f7f56dc54d64
+
+COCOAPODS: 1.9.1
