@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 [![Platform](https://img.shields.io/cocoapods/p/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 
+### MLogger is  a tiny logger for testing cases and following the logs on the console.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
