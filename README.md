@@ -36,6 +36,17 @@ pod 'MLogger'
   MLogger.warning("This is a WARNING message") // WARNING log
   MLogger.severe("This is a SEVERE message") // SEVERE Error log
 ```
+
+```
+// Log on Xcode Console
+2018-06-09 01:03:37694 [💬][AppDelegate.swift]:20 15 application(_:didFinishLaunchingWithOptions:) -> This is a DEBUG message
+2018-06-09 01:03:37722 [‼️][AppDelegate.swift]:21 15 application(_:didFinishLaunchingWithOptions:) -> This is an ERROR message
+2018-06-09 01:03:37723 [ℹ️][AppDelegate.swift]:22 15 application(_:didFinishLaunchingWithOptions:) -> This is a INFO message
+2018-06-09 01:03:37724 [🔬][AppDelegate.swift]:23 15 application(_:didFinishLaunchingWithOptions:) -> This is a VERBOSE message
+2018-06-09 01:03:37724 [⚠️][AppDelegate.swift]:24 15 application(_:didFinishLaunchingWithOptions:) -> This is a WARNING message
+2018-06-09 01:03:37725 [🔥][AppDelegate.swift]:25 15 application(_:didFinishLaunchingWithOptions:) -> This is a SEVERE message
+
+```
 ## Author
 
 Mahmoud Abdelshafi, Email: mahmoudabdelshafi4@gmail.com
