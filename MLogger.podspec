@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4'
 
-  s.source_files = 'MLogger/Classes/**/*'
+  s.source_files = 'Source/*.swift'
   
   # s.resource_bundles = {
   #   'MLogger' => ['MLogger/Assets/*.png']
