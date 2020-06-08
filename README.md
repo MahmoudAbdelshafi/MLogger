@@ -1,6 +1,6 @@
 # MLogger
 
-
+[![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta)
 [![Version](https://img.shields.io/cocoapods/v/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 [![License](https://img.shields.io/cocoapods/l/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 [![Platform](https://img.shields.io/cocoapods/p/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
