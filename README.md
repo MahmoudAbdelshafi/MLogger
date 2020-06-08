@@ -19,10 +19,26 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'MLogger'
 ```
+## Usage
 
+### Basic
+> If you are using CocoaPods to integrate Loggerithm. Import Loggerithm first:
+> ```swift
+> import MLogger
+> ```
+
+```   
+ // Basic Usages
+  MLogger.debug("This is a DEBUG message") // DEBUG log
+  MLogger.error("This is an ERROR message") // ERROR log
+  MLogger.info("This is a INFO message") // INFO log
+  MLogger.verbose("This is a VERBOSE message") // VERBOSE log
+  MLogger.warning("This is a WARNING message") // WARNING log
+  MLogger.severe("This is a SEVERE message") // SEVERE Error log
+```
 ## Author
 
-mahmoudabdelshafi4@gmail.com, mahmoudabdelshafi4@gmail.com
+Mahmoud Abdelshafi, Email: mahmoudabdelshafi4@gmail.com
 
 ## License
 
