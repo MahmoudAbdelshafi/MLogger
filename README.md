@@ -56,6 +56,6 @@ pod 'MLogger'
 
 Mahmoud Abdelshafi, Email: mahmoudabdelshafi4@gmail.com
 
-## License
+## License.
 
 MLogger is available under the MIT license. See the LICENSE file for more info.
