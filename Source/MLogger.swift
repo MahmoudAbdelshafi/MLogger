@@ -118,7 +118,7 @@ public final class MLogger{
     
     
     /// Getting the MLogger.text path folder and print it into the console
-    static func printMloggerFilePath(){
+    class func printMloggerFilePath(){
         var filePath: String{
             let manger = FileManager.default
             let url = manger.urls(for: .documentDirectory, in: .allDomainsMask).first! as NSURL
