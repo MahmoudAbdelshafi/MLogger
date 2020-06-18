@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 
 ### What is MLogger 
-MLogger is  a tiny logger for testing cases and following the logs on the console and saves them into a local file.
+MLogger is  a tiny logger for testing cases and following the logs on the console and saves them into a local .text file.
 
 ## Example
 
