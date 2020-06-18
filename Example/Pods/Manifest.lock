@@ -1,5 +1,5 @@
 PODS:
-  - MLogger (0.1.0)
+  - MLogger (1.1.0)
 
 DEPENDENCIES:
   - MLogger (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MLogger: a12299e335027bbe6fab2d5d2689d63db5a01550
+  MLogger: 08232e8d94c2c55ff6dcc437d09eb4f376c565c2
 
-PODFILE CHECKSUM: db2620ac883b88860bfb89a08dc5f7f56dc54d64
+PODFILE CHECKSUM: 13acfe9cc054b4c007befdaf5e0f3dbeee24938b
 
 COCOAPODS: 1.9.1
