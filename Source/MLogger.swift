@@ -36,9 +36,8 @@ public final class MLogger{
         formatter.timeZone = TimeZone.current
         return formatter
     }
-    
   
-    fileprivate static var LogsToSave: [String]?{
+    private static var LogsToSave = [String](){
         didSet{
         var logs = ""
         for log in LogsToSave{
@@ -48,7 +47,6 @@ public final class MLogger{
         }
     }
 
-    
     private static var isLoggingEnabled: Bool {
         #if DEBUG
         return true
