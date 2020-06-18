@@ -53,7 +53,7 @@ pod 'MLogger'
 
 ```
 ### How to get the MLogger.text file path 
-<img src= "images/mloggerTextFile.png" width="250" >
+<img src= "images/mloggerTextFile.png" width="350" >
 
 ```
 //MARK:- Print the Mlogger.text file path into the console
