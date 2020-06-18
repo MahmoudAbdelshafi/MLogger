@@ -52,7 +52,7 @@ pod 'MLogger'
 2018-06-09 01:03:37725 [🔥][AppDelegate.swift]:25 15 application(_:didFinishLaunchingWithOptions:) -> This is a SEVERE message
 
 ```
-### How to get the MLogger.text file path 
+### How to find the MLogger.text file path 
 <img src= "images/mloggerTextFile.png" width="350" >
 
 ```
