@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 
 ### What is MLogger 
-MLogger is  a tiny logger for testing cases and following the logs on the console and saves them into a local .text file.
+MLogger is  a tiny logger for testing cases and following the logs on the console and saves them into a local .txt file.
 
 ## Example
 
@@ -52,11 +52,11 @@ pod 'MLogger'
 2018-06-09 01:03:37725 [🔥][AppDelegate.swift]:25 15 application(_:didFinishLaunchingWithOptions:) -> This is a SEVERE message
 
 ```
-### How to find the MLogger.text file path 
+### How to find the MLogger.txt file path 
 <img src= "images/mloggerTextFile.png" width="350" >
 
 ```
-//MARK:- Print the Mlogger.text file path into the console
+//MARK:- Print the Mlogger.tet file path into the console
 
 MLogger.printMloggerFilePath()
 ```
