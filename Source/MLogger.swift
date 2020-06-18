@@ -116,7 +116,7 @@ public final class MLogger{
     
     
     /// Getting the MLogger.text path folder and print it into the console
-    class func printMloggerFilePath(){
+   public class func printMloggerFilePath(){
         var filePath: String{
             let manger = FileManager.default
             let url = manger.urls(for: .documentDirectory, in: .allDomainsMask).first! as NSURL
@@ -127,7 +127,7 @@ public final class MLogger{
     }
     
     ///Saving the printed logs into MLogger.text file
-    static func saveToLogTextFile(_ text: String, to fileNamed: String = "MLogger", folder: String = "SavedFiles") {
+    static func saveToLogTextFile(_ text: String, to fileNamed: String = "MLogger", folder: String = "MLogger") {
         guard let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first else { return }
         guard let writePath = NSURL(fileURLWithPath: path).appendingPathComponent(folder) else { return }
         try? FileManager.default.createDirectory(atPath: writePath.path, withIntermediateDirectories: true)
