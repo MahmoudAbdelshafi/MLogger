@@ -6,14 +6,14 @@
 [![Platform](https://img.shields.io/cocoapods/p/MLogger.svg?style=flat)](https://cocoapods.org/pods/MLogger)
 
 ### What is MLogger 
-MLogger is  a tiny logger for testing cases and following the logs on the console.
+MLogger is  a tiny logger for testing cases and following the logs on the console and saves them into a local file.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-- IOS 12.0+ 
+- IOS 10.0+ 
 - Xcode 9.0
 
 ## Installation

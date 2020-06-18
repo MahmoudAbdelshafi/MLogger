@@ -37,17 +37,17 @@ public final class MLogger{
         return formatter
     }
     
-    
-    private static var LogsToSave = [String](){
+  
+    fileprivate static var LogsToSave: [String]?{
         didSet{
-            var logs = ""
-            for log in LogsToSave{
-                logs.append("\(log)" + "\n")
-            }
-            saveToLogTextFile(logs)
+        var logs = ""
+        for log in LogsToSave{
+        logs.append("\(log)" + "\n")
+        }
+        saveToLogTextFile(logs)
         }
     }
-    
+
     
     private static var isLoggingEnabled: Bool {
         #if DEBUG
