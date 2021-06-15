@@ -56,7 +56,7 @@ pod 'MLogger'
 <img src= "images/mloggerTextFile.png" width="350" >
 
 ```
-//MARK:- Print the Mlogger.tet file path into the console
+//MARK:- Print the Mlogger.txt file path into the console
 
 MLogger.printMloggerFilePath()
 ```
